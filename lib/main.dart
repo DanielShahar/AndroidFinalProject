@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-//import 'package:loginapp/screens/auth_phone.dart';***
-//import 'package:loginapp/screens/auth_code.dart';***
-//import 'package:loginapp/screens/download_items.dart';***
-//import 'package:loginapp/screens/dashboard_screen.dart';***
+//import 'package:loginapp/screens/auth_phone.dart';
+//import 'package:loginapp/screens/auth_code.dart';
+//import 'package:loginapp/screens/download_items.dart';
+//import 'package:loginapp/screens/dashboard_screen.dart';
 //import 'package:loginapp/screens/profile_screen.dart';
 //import 'package:loginapp/screens/setting_screen.dart';
 //import 'package:loginapp/screens/items_screen.dart';
@@ -38,13 +38,13 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      //home: const Login(title: 'Login App'),
-      //home: const VerifyCodePage(title: 'Login App'),
-      //home: const AppsListPage(),
-      //home: const DashboardScreen(),
-      //home: const ProfileScreen(),
-      //home: const SettingsScreen(),
-      //home: const ItemsScreen(),
+      //home: const Login(title: 'Login App'), //auth_phone.dart
+      //home: const VerifyCodePage(title: 'Login App'), //auth_code.dart
+      //home: const AppsListPage(), //download_items.dart
+      //home: const DashboardScreen(), //dashboard_screen.dart
+      //home: const ProfileScreen(), //profile_screen.dart
+      //home: const SettingsScreen(), //setting_screen.dart'
+      //home: const ItemsScreen(), //items_screen.dart
      
     );
   }
