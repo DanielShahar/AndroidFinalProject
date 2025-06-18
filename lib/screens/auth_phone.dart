@@ -112,9 +112,9 @@ class _LoginState extends State<Login> {
                   onPressed: _submit,
                   style: ElevatedButton.styleFrom(
                     backgroundColor: const Color.fromARGB(255, 242, 92, 110),
-                    foregroundColor: const Color.fromARGB(255, 19, 18, 18), //טקסט בצבע שחור
+                    foregroundColor: const Color.fromARGB(255, 19, 18, 18),
                     shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(30), // פינות עגולות
+                      borderRadius: BorderRadius.circular(30),
                     ),
                     textStyle: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                   ),
